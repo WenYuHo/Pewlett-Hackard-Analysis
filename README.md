@@ -13,13 +13,13 @@ The porpose of the analysis is to get a big picture on how many of our staffs ar
 
 2. We only have 1.5k staffs that are eliglbe for mentorship program.
 
-![](IMG/Current_Staffs_Ready_to_Receive_Mentorships.png)
+![](IMG/Current_Staffs_Ready_to_Receive_Mentorships.PNG)
 
 3. Our company is facing unblance of seniority. Unless we start to get more younger employees to be ready for next series of trainings and promotions, we wont have enough skills to take on senior roles.
 
 4. Development, Production, and Sales departments are the one that lacks next leader the most.
 
-![](IMG/Retiring_Employees_and Mentors_Elgible.png)
+![](IMG/Retiring_Employees_and Mentors_Elgible.PNG)
 
 
 
