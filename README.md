@@ -17,7 +17,7 @@ The porpose of the analysis is to get a big picture on how many of our staffs ar
 
 3. Our company is facing unblance of seniority. Unless we start to get more younger employees to be ready for next series of trainings and promotions, we wont have enough skills to take on senior roles.
 
-4. Development, Production, and Sales departments are the one that lacks next leader the most.
+4. Development, Production, and Sales departments are the one that lacks next leaders the most.
 
 ![](IMG/Retiring_Employees_and Mentors_Elgible.PNG)
 
