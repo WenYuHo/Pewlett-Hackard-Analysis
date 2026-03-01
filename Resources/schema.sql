@@ -54,3 +54,15 @@ CREATE TABLE titles (
 	FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
 	PRIMARY KEY (emp_no, title, from_date)
 );
+
+-- Performance optimizations: Indexes for frequently queried columns
+-- Speeds up retirement eligibility queries based on birth and hire dates
+CREATE INDEX idx_employees_birth_date ON employees (birth_date);
+CREATE INDEX idx_employees_hire_date ON employees (hire_date);
+
+-- Speeds up filtering for current employees (where to_date = '9999-01-01')
+CREATE INDEX idx_dept_emp_to_date ON dept_emp (to_date);
+CREATE INDEX idx_titles_to_date ON titles (to_date);
+
+-- Speeds up joins on emp_no for dept_emp table (PK is dept_no, emp_no)
+CREATE INDEX idx_dept_emp_emp_no ON dept_emp (emp_no);
